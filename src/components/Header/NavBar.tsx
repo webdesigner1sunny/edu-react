@@ -14,7 +14,7 @@ const NavBar = () => {
               <li className="active">
                 <a href="index.html">Home</a>
               </li>
-              <li className="has-children">
+              {/* <li className="has-children">
                 <a href="#">Dropdown</a>
                 <ul className="dropdown">
                   <li>
@@ -38,21 +38,25 @@ const NavBar = () => {
                     <a href="#">Menu Three</a>
                   </li>
                 </ul>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a href="staff.html">Our Staff</a>
+              </li> */}
+              <li>
+                <a href="#">News</a>
               </li>
               <li>
-                <a href="news.html">News</a>
+                <a href="#">Gallery</a>
               </li>
               <li>
-                <a href="gallery.html">Gallery</a>
+                <a href="#" onClick={(e) => e.preventDefault()}>
+                  About
+                </a>
               </li>
               <li>
-                <a href="about.html">About</a>
-              </li>
-              <li>
-                <a href="contact.html">Contact</a>
+                <a href="#" onClick={(e) => e.preventDefault()}>
+                  Contacts
+                </a>
               </li>
             </ul>
 
