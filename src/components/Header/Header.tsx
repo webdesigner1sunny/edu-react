@@ -1,5 +1,6 @@
 // import React from "react";
 
+import NavBar from "./NavBar";
 import TopBar from "./TopBar";
 
 const Header = () => {
@@ -7,6 +8,7 @@ const Header = () => {
     <div>
       <nav className="site-nav mb-5">
         <TopBar />
+        <NavBar />
       </nav>
     </div>
   );
