@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function BestEducation() {
   return (
     <div>
@@ -70,7 +68,7 @@ export default function BestEducation() {
             <div
               className="col-6 col-sm-6 col-md-6 col-lg-4"
               data-aos="fade-up"
-              data-aos-delay={100}
+              // data-aos-delay={100}
             >
               <div className="feature">
                 <span className="uil uil-book-alt"></span>
